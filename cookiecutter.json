@@ -1,0 +1,10 @@
+{
+    "plugin_name": "nonebot plugin template",
+    "project_name": "{{cookiecutter.plugin_name.lower().replace(' ', '-')}}",
+    "package_name": "{{cookiecutter.project_name.replace('-', '_')}}",
+    "plugin_desc": "",
+    "github_username": "Jigsaw111",
+    "pypi_username": "{{cookiecutter.github_username}}",
+    "email": "j1g5aw@foxmail.com"
+}
+  
