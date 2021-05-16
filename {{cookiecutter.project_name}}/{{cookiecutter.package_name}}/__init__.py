@@ -5,8 +5,7 @@ from nonebot.adapters.cqhttp import (
     MessageEvent,
 )
 
-from {{cookiecutter.package_name}}.parser import parser
-from {{cookiecutter.package_name}}.typing import Namespace
+from {{cookiecutter.package_name}}.parser import Namespace, parser
 from {{cookiecutter.package_name}}.handle import Handle
 from {{cookiecutter.package_name}}.data import Data
 

@@ -1,5 +1,5 @@
 from {{cookiecutter.package_name}}.data import Data
-from {{cookiecutter.package_name}}.typing import Namespace    
+from {{cookiecutter.package_name}}.parser import Namespace
 
 class Handle:
 
