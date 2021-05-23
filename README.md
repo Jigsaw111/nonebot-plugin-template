@@ -23,13 +23,20 @@ nb plugin new -T gh:nonepkg/nonebot-template-plugin
 ## Structure
 
 ```shell
-nonebot-plugin-template
+nonebot-plugin-template (项目名)
+│  .env
 │  .gitignore
+│  bot.py
 │  LICENSE
 │  pyproject.toml
 │  README.md
-│  
-│─nonebot_plugin_template
+│
+│─.vscode
+│    task.json
+│
+│─go-cqhttp
+│
+│─nonebot_plugin_template (包名)
 │    data.py
 │    handle.py
 │    parser.py
