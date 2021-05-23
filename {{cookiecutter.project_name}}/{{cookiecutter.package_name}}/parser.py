@@ -1,4 +1,14 @@
+import argparse
+
+
+from argparse import Namespace as BaseNamespace
+
 from nonebot.rule import ArgumentParser
+
+
+class Namespace(BaseNamespace):
+    pass
+
 
 parser = ArgumentParser("command")
 
