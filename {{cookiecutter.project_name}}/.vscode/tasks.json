@@ -4,18 +4,14 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "nonebot",
+            "label": "NoneBot2",
             "type": "shell",
             "command": "poetry run nb run",
-            "problemMatcher": [],
-            "group":"build"
         },
         {
             "label": "go-cqhttp",
             "type": "shell",
             "command": "cd go-cqhttp && go-cqhttp faststart",
-            "problemMatcher": [],
-            "group":"build"
         }
     ]
 }
