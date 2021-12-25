@@ -1,6 +1,6 @@
 # {{cookiecutter.plugin_name.title()}}
 
-基于 [nonebot2](https://github.com/nonebot/nonebot2) 和 [go-cqhttp](https://github.com/Mrs4s/go-cqhttp) 的插件
+基于 [NoneBot2](https://github.com/nonebot/nonebot2) 的插件
 
 [![License](https://img.shields.io/github/license/{{cookiecutter.github_username}}/{{cookiecutter.project_name}})](LICENSE)
 ![Python Version](https://img.shields.io/badge/python-3.7.3+-blue.svg)
@@ -41,6 +41,6 @@ git clone https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.pro
 
 ### Bug
 
-### To Do
+### TODO
 
 ### Changelog

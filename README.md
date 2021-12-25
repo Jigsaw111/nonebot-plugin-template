@@ -1,10 +1,8 @@
-# Nonebot Template Plugin
+# NoneBot Template Plugin
 
-**注意，这并不是一个 Nonebot 插件，而是 Nonebot 插件模板！**
+**注意，这并不是一个 NoneBot2 插件，而是 NoneBot2 插件模板！**
 
 *突然发现我写的大部分插件基本上都采用了类似的结构，干脆就做成模板好了。*
-
-适用于
 
 ## Usage
 
@@ -42,7 +40,3 @@ nonebot-plugin-template (项目名)
 │    parser.py
 │    __init__.py
 ```
-
-## To Do
-
-- [x] 魔改 nb-cli 使其支持自定义插件模板
