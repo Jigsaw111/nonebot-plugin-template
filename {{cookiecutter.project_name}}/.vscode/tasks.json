@@ -7,11 +7,6 @@
             "label": "NoneBot2",
             "type": "shell",
             "command": "poetry run nb run",
-        },
-        {
-            "label": "go-cqhttp",
-            "type": "shell",
-            "command": "cd go-cqhttp && go-cqhttp faststart",
         }
     ]
 }
