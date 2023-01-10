@@ -13,28 +13,28 @@
 
 - 使用 nb-cli  
 
-```
+```sh
 nb plugin install {{cookiecutter.project_name}}
 ```
 
 - 使用 pdm
 
-```
+```sh
 pdm add {{cookiecutter.project_name}}
 ```
 
 - 使用 pip
 
-```
+```sh
 pip install {{cookiecutter.project_name}}
 ```
 
 ### 从 GitHub 安装（不推荐）
 
-```
-git clone https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}.git
+```sh
+poetry add git+https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}
 ```
 
-### 使用
+## 使用
 
 **使用前请先确保命令前缀为空，否则请在以下命令前加上命令前缀 (默认为 `/` )。**
