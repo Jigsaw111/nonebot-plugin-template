@@ -3,7 +3,7 @@
     "project_name": "{{cookiecutter.plugin_name.lower().replace(' ', '-')}}",
     "package_name": "{{cookiecutter.project_name.replace('-', '_')}}",
     "plugin_desc": "",
-    "github_username": "j1g5awi",
-    "pypi_username": "{{cookiecutter.github_username}}",
+    "github_username": "nonepkg",
+    "pypi_username": "Jigsaw",
     "email": "j1g5aw@foxmail.com"
 }

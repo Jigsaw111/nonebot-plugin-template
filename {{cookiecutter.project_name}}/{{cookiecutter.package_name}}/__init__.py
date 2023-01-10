@@ -1,18 +1,16 @@
-from nonebot.plugin import on_shell_command
 from nonebot.typing import T_State
-from nonebot.adapters.cqhttp import (
-    Bot,
-    MessageEvent,
-)
+from nonebot.adapters import Bot, Event
+from nonebot.plugin import on_shell_command
 
-from {{cookiecutter.package_name}}.parser import Namespace, parser
-from {{cookiecutter.package_name}}.handle import Handle
-from {{cookiecutter.package_name}}.data import Data
+from .data import Data
+from .handle import Handle
+from .parser import Namespace, parser
 
 command = on_shell_command("command", parser=parser, priority=1)
 
+
 @command.handle()
-async def _(bot: Bot, event: MessageEvent, state: T_State):
+async def _(bot: Bot, event: Event, state: T_State):
 
     args: Namespace = state["args"]
 

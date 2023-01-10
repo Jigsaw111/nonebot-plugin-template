@@ -1,12 +1,12 @@
-from {{cookiecutter.package_name}}.data import Data
-from {{cookiecutter.package_name}}.parser import Namespace
+from .data import Data
+from .parser import Namespace
+
 
 class Handle:
+    @classmethod
+    def sc(cls, args: Namespace):
+        return cls.subcommand(args)
 
     @classmethod
-    def subcommand(cls, args: Namespace) -> str:
-        return cls.subcommand(Namespace)
-
-    @classmethod
-    def subcommand(cls, args: Namespace) -> str:
+    def subcommand(cls, args: Namespace):
         pass

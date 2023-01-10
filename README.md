@@ -15,28 +15,32 @@ cookiecutter gh:nonepkg/nonebot-template-plugin
 ### nb-cli
 
 ```shell
-nb plugin new -T gh:nonepkg/nonebot-template-plugin
+nb plugin new -t gh:nonepkg/nonebot-template-plugin
 ```
 
 ## Structure
 
 ```shell
-nonebot-plugin-template (项目名)
+nonebot-plugin-template（项目名）
 │  .env
 │  .gitignore
+│  .pre-commit-config.yaml
 │  bot.py
 │  LICENSE
 │  pyproject.toml
 │  README.md
+│  pyrightconfig.json
 │
-│─.vscode
-│    task.json
-│
-│─go-cqhttp
-│
-│─nonebot_plugin_template (包名)
+│─nonebot_plugin_template（包名）
 │    data.py
 │    handle.py
 │    parser.py
 │    __init__.py
+│
+│─.devcontainer
+│    devcontainer.json
+│
+|-.github
+|--workflows
+|    publish_to_pypi.yaml
 ```

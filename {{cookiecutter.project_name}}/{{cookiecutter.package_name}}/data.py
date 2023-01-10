@@ -1,12 +1,16 @@
-from yaml import safe_load, dump
+import json
 from pathlib import Path
+
 
 class Data:
     __path: Path
     __data: dict
     __data_template: dict = {}
 
-    def __init__(self, path: Path = Path() / "data" / "puppet" / "__conv_mapping.yml"):
+    def __init__(
+        self,
+        path: Path = Path() / "data" / "{{cookiecutter.project_name.rsplit('-', 1)[-1]}}" / "config.yml",
+    ):
         self.__path = path
         self.__load()
 
