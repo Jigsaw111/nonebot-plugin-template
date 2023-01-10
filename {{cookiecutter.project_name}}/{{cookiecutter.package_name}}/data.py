@@ -28,14 +28,14 @@ class Data:
 
     def __load(self) -> "Data":
         try:
-            self.__data = safe_load(self.__path.open("r", encoding="utf-8"))
+            self.__data = json.load(self.__path.open("r", encoding="utf-8"))
         except FileNotFoundError:
             self.__data = self.__data_template
         return self
 
     def __dump(self):
         self.__path.parent.mkdir(parents=True, exist_ok=True)
-        dump(
+        json.dump(
             self.__data,
             self.__path.open("w", encoding="utf-8"),
             allow_unicode=True,
