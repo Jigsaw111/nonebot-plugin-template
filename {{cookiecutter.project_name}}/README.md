@@ -32,9 +32,5 @@ pip install {{cookiecutter.project_name}}
 ### 从 GitHub 安装（不推荐）
 
 ```sh
-poetry add git+https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}
+pdm add git+https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}
 ```
-
-## 使用
-
-**使用前请先确保命令前缀为空，否则请在以下命令前加上命令前缀 (默认为 `/` )。**
